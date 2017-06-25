@@ -1,0 +1,15 @@
+---
+title: "2017 Developer Survey Stub"
+author: '`r Sys.getenv("USER")`'
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+Sourced from https://github.com/dgrtwo/tabs-spaces-post
+
+```{r read-and-sample}
+df <- read.csv("developer_survey_2017/survey_results_public.csv")
+head(df)
+```
+
+Create your README.md for your own repository with `knitr::knit("README.Rmd")`
